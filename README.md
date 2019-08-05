@@ -17,16 +17,19 @@ Weather App that use darksky api to view current weather status in flutter
     <td>
   <img width="500px" src="https://github.com/SamadiPour/Weather-Man/blob/master/Screenshots/4.png">
     </td>
+  </tr>
+  <tr>
     <td>
   <img width="500px" src="https://github.com/SamadiPour/Weather-Man/blob/master/Screenshots/5.png">
     </td>
-  </tr>
-  <tr>
     <td>
   <img width="500px" src="https://github.com/SamadiPour/Weather-Man/blob/master/Screenshots/6.png">
     </td>
     <td>
   <img width="500px" src="https://github.com/SamadiPour/Weather-Man/blob/master/Screenshots/7.png">
+    </td>
+    <td>
+  <img width="500px" src="https://github.com/SamadiPour/Weather-Man/blob/master/Screenshots/8.png">
     </td>
 </table>
 
