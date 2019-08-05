@@ -1,5 +1,5 @@
 # Weather-Man
-Weather App that use darksky api to view current weather status in flutter
+Weather App with darksky api to view current weather status in flutter
 
 ## :camera: Screenshots
 
@@ -94,7 +94,7 @@ open `ApiKey.dart` in `lib\Utilities`
 find this line:
 
 ```
-    static const _darksky_api = 'YOUR_API_KEY';
+static const _darksky_api = 'YOUR_API_KEY';
 ```
 
 replace your key with `YOUR_API_KEY`
@@ -106,7 +106,7 @@ open `CityApiHandler.dart` in `lib\module`
 find this line:
 
 ```
-        static const String baseURL = 'http://api.geonames.org/findNearbyJSON?formatted=true&fclass=P&fcode=PPLA&fcode=PPL&fcode=PPLC&username=YOUR_API_KEY&style=SHORT';
+static const String baseURL = 'http://api.geonames.org/findNearbyJSON?formatted=true&fclass=P&fcode=PPLA&fcode=PPL&fcode=PPLC&username=YOUR_API_KEY&style=SHORT';
 ```
 
 replace your key(Username) with `YOUR_API_KEY`
