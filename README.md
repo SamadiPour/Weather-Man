@@ -59,9 +59,57 @@ Weather App that use darksky api to view current weather status in flutter
 - geonames.org API Key
 - darksky.net API Key
 
-### Installing
-#### API Keys
+### API Keys
+#### Google API
 
+Go to [here](https://console.cloud.google.com/apis) and create new project if you don't have
+then enable Google Maps for Android & Google Maps for IOS
+then get the api key and follow below steps
+
+- Android
+open `AndroidManifest.xml` in `android\app\src\main`
+find this line:
+
+```
+<meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY"/>
+```
+
+replace your key with `YOUR_API_KEY`
+
+- IOS
+open `AppDelegate.m` in `ios\Runner`
+find this line:
+```
+[GMSServices provideAPIKey:@"YOUR_API_KEY"];
+```
+
+replace your key with `YOUR_API_KEY`
+
+
+#### Darksky API
+
+Get Api from [here](https://darksky.net/dev/account)
+open `ApiKey.dart` in `lib\Utilities`
+find this line:
+
+```
+    static const _darksky_api = 'YOUR_API_KEY';
+```
+
+replace your key with `YOUR_API_KEY`
+
+#### Geocoding API
+
+Get Api from [here](https://www.geonames.org/login) (Regester first. Your api key is your username!)
+open `CityApiHandler.dart` in `lib\module`
+find this line:
+
+```
+        static const String baseURL = 'http://api.geonames.org/findNearbyJSON?formatted=true&fclass=P&fcode=PPLA&fcode=PPL&fcode=PPLC&username=YOUR_API_KEY&style=SHORT';
+```
+
+replace your key(Username) with `YOUR_API_KEY`
 
 ## :heart: Credits
 - API: https://darksky.net - http://www.geonames.org
