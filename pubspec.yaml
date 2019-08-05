@@ -1,0 +1,74 @@
+name: weather_man
+description: Weather Application
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  liquid_pull_to_refresh: ^1.1.1
+  shared_preferences: ^0.5.3+4
+  intro_slider: ^2.2.5
+  auto_size_text: ^2.0.2+1
+  darksky_weather: ^1.2.0
+  flare_flutter: ^1.5.5
+  flutter_svg: ^0.14.0
+  sqflite: ^1.1.6+3
+  location: ^2.3.5
+  intl: ^0.15.8
+  shimmer: ^1.0.0
+  flutter_launcher_icons: ^0.7.2+1
+  collection: ^1.14.11
+  http: ^0.12.0+2
+  flutter_inner_drawer: ^0.3.0
+  xlive_switch: ^1.0.5
+  dynamic_theme: ^1.0.1
+  google_maps_flutter: ^0.5.20+1
+  fl_chart: ^0.1.5
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "asset/icon.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - asset/image/weather_icon/
+    - asset/image/intro_image/
+    - asset/image/flag_image/
+    - asset/animation/
+    - asset/database/
+    - asset/image/
+
+  fonts:
+    - family: IndieFlower
+      fonts:
+        - asset: asset/font/IndieFlower.ttf
+    - family: Merienda
+      fonts:
+        - asset: asset/font/Merienda-Bold.ttf
+    - family: RussoOne
+      fonts:
+        - asset: asset/font/RussoOne-Regular.ttf
+    - family: Sniglet
+      fonts:
+        - asset: asset/font/Sniglet-Regular.ttf
+    - family: OpenSans
+      fonts:
+        - asset: asset/font/OpenSans-Regular.ttf
+        - asset: asset/font/OpenSans-Bold.ttf
+        - asset: asset/font/OpenSans-Light.ttf
+        - asset: asset/font/OpenSans-SemiBold.ttf
+          weight: 600
