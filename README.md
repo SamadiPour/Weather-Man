@@ -1,5 +1,11 @@
 # Weather-Man
-Weather App with darksky api to view current weather status in flutter
+Weather App with darksky api to view current weather status in flutter    
+   
+Download Built APK from here   
+<a href="https://github.com/SamadiPour/Weather-Man/releases/download/1.0.0/app-release.apk">
+<img src="https://github.com/SamadiPour/Weather-Man/blob/master/download.png" height="100">
+</a>
+
 
 ## :camera: Screenshots
 
