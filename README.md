@@ -68,12 +68,12 @@ Download Built APK from here
 ### API Keys
 #### Google API
 
-Go to [here](https://console.cloud.google.com/apis) and create new project if you don't have
-then enable Google Maps for Android & Google Maps for IOS
-then get the api key and follow below steps
+Go to [here](https://console.cloud.google.com/apis) and create new project if you don't have   
+then enable Google Maps for Android & Google Maps for IOS   
+then get the api key and follow below steps   
 
 - Android
-open `AndroidManifest.xml` in `android\app\src\main`
+open `AndroidManifest.xml` in `android\app\src\main`   
 find this line:
 
 ```
@@ -95,8 +95,8 @@ replace your key with `YOUR_API_KEY`
 
 #### Darksky API
 
-Get Api from [here](https://darksky.net/dev/account)
-open `ApiKey.dart` in `lib\Utilities`
+Get Api from [here](https://darksky.net/dev/account)   
+open `ApiKey.dart` in `lib\Utilities`   
 find this line:
 
 ```
@@ -107,8 +107,8 @@ replace your key with `YOUR_API_KEY`
 
 #### Geocoding API
 
-Get Api from [here](https://www.geonames.org/login) (Regester first. Your api key is your username!)
-open `CityApiHandler.dart` in `lib\module`
+Get Api from [here](https://www.geonames.org/login) (Regester first. Your api key is your username!)   
+open `CityApiHandler.dart` in `lib\module`   
 find this line:
 
 ```
