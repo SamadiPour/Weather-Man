@@ -42,7 +42,7 @@ Download Built APK from here
 
 ## :innocent: Features
 
-* Beatiful UI
+* Beautiful UI
 * Dark Mode
 * Current weather: current temperature, max and min temperature, humidity, pressure, wind
 * Weather forecast for 7 days
