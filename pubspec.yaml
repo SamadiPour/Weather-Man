@@ -25,10 +25,10 @@ dependencies:
   flutter_launcher_icons: ^0.7.2+1
   collection: ^1.14.11
   http: ^0.12.0+2
-  flutter_inner_drawer: ^0.3.0
+  flutter_inner_drawer: ^0.4.0
   xlive_switch: ^1.0.5
   dynamic_theme: ^1.0.1
-  google_maps_flutter: ^0.5.20+1
+  google_maps_flutter: ^0.5.20+2
   fl_chart: ^0.1.5
 
 

@@ -117,7 +117,7 @@ packages:
       name: flutter_inner_drawer
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.3.0"
+    version: "0.4.0"
   flutter_launcher_icons:
     dependency: "direct main"
     description:
@@ -143,7 +143,7 @@ packages:
       name: google_maps_flutter
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.5.20+1"
+    version: "0.5.20+2"
   http:
     dependency: "direct main"
     description:

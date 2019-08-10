@@ -54,7 +54,7 @@ Download Built APK from here
 * On and Off switch for widgets
 * Offline database of city names
 * Flag of each city
-* Reverse Geocoding Info
+* Reverse GeoCoding Info
 
 ## :fist: Getting Started
 
@@ -96,23 +96,21 @@ replace your key with `YOUR_API_KEY`
 #### Darksky API
 
 Get Api from [here](https://darksky.net/dev/account)   
-open `ApiKey.dart` in `lib\Utilities`   
-find this line:
+open `ApiKey.dart` in `lib\Utilities` then find this line:
 
 ```
-static const _darksky_api = 'YOUR_API_KEY';
+static const DARK_SKY_API = 'YOUR_API_KEY';
 ```
 
 replace your key with `YOUR_API_KEY`
 
 #### Geocoding API
 
-Get Api from [here](https://www.geonames.org/login) (Regester first. Your api key is your username!)   
-open `CityApiHandler.dart` in `lib\module`   
-find this line:
+Get Api from [here](https://www.geonames.org/login) (Register first. Your api key is your username!)   
+open `ApiKey.dart` in `lib\Utilities` then find this line:
 
 ```
-static const String baseURL = 'http://api.geonames.org/findNearbyJSON?formatted=true&fclass=P&fcode=PPLA&fcode=PPL&fcode=PPLC&username=YOUR_API_KEY&style=SHORT';
+static const GEO_NAMES_API = 'YOUR_API_KEY';
 ```
 
 replace your key(Username) with `YOUR_API_KEY`

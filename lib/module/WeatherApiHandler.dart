@@ -18,7 +18,7 @@ class WeatherApiHandler {
                 Units unit = Units.CA,
             }) async {
         var darksky = new DarkSkyWeather(
-            ApiKey.getApi(),
+            ApiKey.DARK_SKY_API,
             language: Language.English,
             units: unit,
         );

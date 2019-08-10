@@ -23,10 +23,9 @@ class _CityPageState extends State<CityPage> {
     Widget build(BuildContext context) {
         return InnerDrawer(
             key: _innerDrawerKey,
-            child: SettingPage(),
-            animationType: InnerDrawerAnimation.quadratic,
-            position: InnerDrawerPosition.start,
-            offset: 0.75,
+            leftChild: SettingPage(),
+            leftAnimationType: InnerDrawerAnimation.quadratic,
+            leftOffset: 0.75,
             innerDrawerCallback: (value) => opened = value,
             swipe: true,
             onTapClose: true,

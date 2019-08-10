@@ -1,6 +1,4 @@
 class ApiKey {
-    static const _darksky_api = 'YOUR_API_KEY';
-    static String getApi(){
-        return _darksky_api;
-    }
+    static const DARK_SKY_API = 'YOUR_API_KEY';
+    static const GEO_NAMES_API = 'YOUR_API_KEY';
 }

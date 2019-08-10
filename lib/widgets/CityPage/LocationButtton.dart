@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:weather_man/Utilities/Constants.dart';
 import 'package:weather_man/module/City.dart';
-import 'package:weather_man/module/CityApiHandler.dart';
+import 'package:weather_man/module/ReverseGeoCodingApiHandler.dart';
 import 'package:weather_man/module/LocationManager.dart';
 import 'package:weather_man/module/ThemeManager.dart';
 import 'package:weather_man/widgets/CityPage/NiceAlert.dart';
@@ -84,7 +84,7 @@ class LocationButton extends StatelessWidget {
                 title.value = 'Finding Geo Info';
 
                 //fetch city name from api
-                String cityName = await CityApiHandler().getLocationName(
+                String cityName = await ReverseGeoCodingApiHandler().getLocationName(
                     lat: currentLocation.latitude,
                     lon: currentLocation.longitude,
                 );
